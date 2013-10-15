@@ -401,7 +401,8 @@ namespace DayZMap.Arma2Framework
         {
             preset.showFOVLines = input;
         }
-#endregion
+        #endregion
+
         public void startThermalThread()
         {
             if (oThread != null && oThread.IsAlive)
@@ -787,7 +788,7 @@ namespace DayZMap.Arma2Framework
             // coords + 28 = XCoord
             // coords + 2C = ZCoord
             // coords + 30 = YCoord
-
+                    
             //Direction
             int direction = 0x01C;
             float Y = Mem.ReadFloat(coords + direction);

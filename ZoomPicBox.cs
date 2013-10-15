@@ -47,7 +47,7 @@ namespace Balance
                 }
                 _zoom = value;
                 UpdateScaleFactor();
-                Invalidate();
+                //Invalidate();
             }
         }
         private void UpdateScaleFactor()

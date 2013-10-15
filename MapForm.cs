@@ -534,11 +534,6 @@ namespace DayZMap
                 setNoFatigue = false;
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start("chrome", "https://contribute.barackobama.com/donation/orgforaction/2/index.html?");
-        }
-
         private void infiniteAmmoBox_CheckedChanged(object sender, EventArgs e)
         {
             infiniteGrenadeBox.Enabled = infiniteAmmoBox.Checked;
@@ -601,10 +596,10 @@ namespace DayZMap
 
         private void setBulletSpeedBox_TextChanged(object sender, EventArgs e)
         {
-            /*if (fastBulletBox.Checked && float.Parse(setBulletSpeedBox.Text) > 0)
+            if (fastBulletBox.Checked && float.Parse(setBulletSpeedBox.Text) > 0)
             {
                 mapData.setCurrentMuzzleVelocity(float.Parse(setBulletSpeedBox.Text));
-            }*/
+            }
         }
 
         private void fireRateBox_CheckedChanged(object sender, EventArgs e)

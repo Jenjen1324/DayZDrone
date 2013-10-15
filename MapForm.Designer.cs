@@ -673,7 +673,7 @@ namespace DayZMap
             // 
             // bulletDamageTextBox
             // 
-            this.bulletDamageTextBox.Location = new System.Drawing.Point(112, 221);
+            this.bulletDamageTextBox.Location = new System.Drawing.Point(109, 221);
             this.bulletDamageTextBox.Name = "bulletDamageTextBox";
             this.bulletDamageTextBox.Size = new System.Drawing.Size(100, 20);
             this.bulletDamageTextBox.TabIndex = 83;
@@ -761,9 +761,9 @@ namespace DayZMap
             this.groupBox1.Controls.Add(this.showWeaponsBox);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.searchBox);
-            this.groupBox1.Location = new System.Drawing.Point(998, 143);
+            this.groupBox1.Location = new System.Drawing.Point(999, 143);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(272, 647);
+            this.groupBox1.Size = new System.Drawing.Size(272, 643);
             this.groupBox1.TabIndex = 90;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Display Options";
@@ -795,9 +795,9 @@ namespace DayZMap
             this.groupBox2.Controls.Add(this.fireRateBox);
             this.groupBox2.Controls.Add(this.grassCheckBox);
             this.groupBox2.Controls.Add(this.setBulletSpeedBox);
-            this.groupBox2.Location = new System.Drawing.Point(1276, 143);
+            this.groupBox2.Location = new System.Drawing.Point(1277, 143);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(279, 647);
+            this.groupBox2.Size = new System.Drawing.Size(279, 643);
             this.groupBox2.TabIndex = 91;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Game Modifiers";
@@ -825,7 +825,7 @@ namespace DayZMap
             this.groupBox3.Controls.Add(this.label4);
             this.groupBox3.Controls.Add(this.label1);
             this.groupBox3.Controls.Add(this.textBox2);
-            this.groupBox3.Location = new System.Drawing.Point(998, 796);
+            this.groupBox3.Location = new System.Drawing.Point(999, 792);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(272, 197);
             this.groupBox3.TabIndex = 92;
@@ -839,7 +839,7 @@ namespace DayZMap
             this.groupBox4.Controls.Add(this.label12);
             this.groupBox4.Controls.Add(this.mapSelectionBox);
             this.groupBox4.Controls.Add(this.button_reload);
-            this.groupBox4.Location = new System.Drawing.Point(1276, 796);
+            this.groupBox4.Location = new System.Drawing.Point(1277, 792);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(279, 197);
             this.groupBox4.TabIndex = 93;
@@ -887,7 +887,7 @@ namespace DayZMap
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(1559, 997);
+            this.ClientSize = new System.Drawing.Size(1577, 881);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
